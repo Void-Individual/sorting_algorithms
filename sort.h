@@ -22,6 +22,7 @@ typedef struct listint_s
 
 /*========================= Prototypes =========================*/
 void bubble_sort(int *array, size_t size);
+void insertion_sort_list(listint_t **list);
 
 /*=============== print.c ===============*/
 void print_list(const listint_t *list);
